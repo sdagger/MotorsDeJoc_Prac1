@@ -5342,3 +5342,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.28-23.10.44:614][516]AssetCheck: New page: Asset Save: multiple assets
 [2020.01.28-23.10.44:614][516]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2020.01.28-23.10.44:614][516]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/stairs.stairs
+[2020.01.28-23.13.07:031][108]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
