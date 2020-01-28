@@ -639,3 +639,63 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.28-23.01.40:435][269]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2020.01.28-23.01.40:435][269]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2020.01.28-23.01.45:661][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 4096X4096)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 4096X4096)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 4096X4096)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 4096X4096)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 4096X4096)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 4096X4096)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 4096X2048)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 4096X2048)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 4096X2048)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X2048)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X2048)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X2048)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X2048)
+[2020.01.28-23.03.48:688][105]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X2048)
+[2020.01.28-23.03.48:770][105]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/AbandonedFactory/Maps/Warehouse_01_day/Main_Warehouse_01_BuiltData.Main_Warehouse_01_BuiltData
+[2020.01.28-23.03.52:310][297]LogSlate: Window 'Main_Warehouse_01_BuiltData' being destroyed
+[2020.01.28-23.03.52:314][297]LogSlate: Window 'Main_Warehouse_01_BuiltData' being destroyed
+[2020.01.28-23.03.59:579][709]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.28-23.06.35:417][483]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_52' invalid (96 verts, 0 indices).
+[2020.01.28-23.06.35:417][483]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_52.BodySetup_0 when we are unable to.
+[2020.01.28-23.06.35:417][483]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_53' invalid (96 verts, 0 indices).
+[2020.01.28-23.06.35:417][483]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_53.BodySetup_0 when we are unable to.
+[2020.01.28-23.11.36:153][952]LogSlate: Window 'Select Path' being destroyed
+[2020.01.28-23.11.36:571][952]LogStaticMesh: Building static mesh Door...
+[2020.01.28-23.11.36:606][952]LogStaticMesh: Built static mesh [0.03s] /Game/Door.Door
+[2020.01.28-23.11.36:632][952]LogActorFactory: Actor Factory created Door
+[2020.01.28-23.11.36:665][952]LogEditor: Error: Actor 'Brush /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush3' is marked pending kill and cannot be converted
+[2020.01.28-23.11.36:665][952]EditorErrors: New page: Actor Reattachment
+[2020.01.28-23.11.36:705][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.01.28-23.11.41:490][227]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Door)
+[2020.01.28-23.11.44:721][382]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Door.Door
+[2020.01.28-23.11.45:924][382]LogSlate: Took 0.039183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.28-23.12.12:635][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.01.28-23.12.12:922][606]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMap_Auto1DA6AD26F4729139607A843AB1412A011.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.01.28-23.12.12:925][606]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.318
+[2020.01.28-23.12.12:926][606]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.318
+[2020.01.28-23.12.12:926][606]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Door] ([1] browsable assets)...
+[2020.01.28-23.12.13:017][606]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Door.Door]
+[2020.01.28-23.12.13:017][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/Door]
+[2020.01.28-23.12.13:017][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Autosaves/Game/Door_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.01.28-23.12.13:055][606]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door_Auto1354295CB424BF7D53CF24EA3CBDD98BD.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Autosaves/Game/Door_Auto1.uasset'
+[2020.01.28-23.12.13:057][606]LogFileHelpers: Auto-saving content packages took 0.132
+[2020.01.28-23.12.57:554][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door.uasset" SILENT=true
+[2020.01.28-23.12.57:564][676]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door0118C4A44B153D578057548E821C902D.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door.uasset'
+[2020.01.28-23.12.57:584][676]AssetCheck: New page: Asset Save: Door
+[2020.01.28-23.12.57:584][676]LogContentValidation: Display: Validating StaticMesh /Game/Door.Door
+[2020.01.28-23.13.16:088][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door.uasset" SILENT=true
+[2020.01.28-23.13.16:104][964]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/DoorAAFBC7C242A0C7C0301124BECCE61D43.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door.uasset'
+[2020.01.28-23.13.16:115][964]AssetCheck: New page: Asset Save: Door
+[2020.01.28-23.13.16:115][964]LogContentValidation: Display: Validating StaticMesh /Game/Door.Door
+[2020.01.28-23.13.17:887][ 65]LogSlate: Window 'Door' being destroyed
+[2020.01.28-23.13.17:890][ 65]LogSlate: Window 'Door' being destroyed
+[2020.01.28-23.13.17:904][ 65]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.01.28-23.13.17:904][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.28-23.13.21:976][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.01.28-23.13.22:025][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.01.28-23.13.22:258][274]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMap6E04E0AE4B6FA62615E3F0B0E8308E69.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.28-23.13.22:282][274]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.281
+[2020.01.28-23.13.22:290][274]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.28-23.13.22:290][274]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
