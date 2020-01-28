@@ -4745,3 +4745,600 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.28-22.50.12:750][996]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
 [2020.01.28-22.51.15:047][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
 [2020.01.28-22.51.15:049][181]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.026
+[2020.01.28-22.53.44:901][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/Foliage_LayerInfo': Can't find file.
+[2020.01.28-22.53.44:902][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/Foliage_LayerInfo': Can't find file.
+[2020.01.28-22.53.44:902][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Landscape/Foliage_LayerInfo.Foliage_LayerInfo'
+[2020.01.28-22.53.44:902][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/GrassType_1': Can't find file.
+[2020.01.28-22.53.44:902][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/GrassType_1': Can't find file.
+[2020.01.28-22.53.44:902][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Landscape/GrassType_1.GrassType_1'
+[2020.01.28-22.53.44:902][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/NoFoliage_LayerInfo': Can't find file.
+[2020.01.28-22.53.44:902][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/NoFoliage_LayerInfo': Can't find file.
+[2020.01.28-22.53.44:902][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Landscape/NoFoliage_LayerInfo.NoFoliage_LayerInfo'
+[2020.01.28-22.53.44:902][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/NoFoliage_LayerInfo_1': Can't find file.
+[2020.01.28-22.53.44:903][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/NoFoliage_LayerInfo_1': Can't find file.
+[2020.01.28-22.53.44:903][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Landscape/NoFoliage_LayerInfo_1.NoFoliage_LayerInfo_1'
+[2020.01.28-22.53.44:903][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/Roots_LayerInfo': Can't find file.
+[2020.01.28-22.53.44:903][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Landscape/Roots_LayerInfo': Can't find file.
+[2020.01.28-22.53.44:903][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Landscape/Roots_LayerInfo.Roots_LayerInfo'
+[2020.01.28-22.53.44:903][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Maps/Demo': Can't find file.
+[2020.01.28-22.53.44:903][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Maps/Demo': Can't find file.
+[2020.01.28-22.53.44:903][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Maps/Demo.Demo_BuiltData'
+[2020.01.28-22.53.44:908][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Maps/Demo_Day': Can't find file.
+[2020.01.28-22.53.44:908][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Maps/Demo_Day': Can't find file.
+[2020.01.28-22.53.44:908][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Maps/Demo_Day.Demo_BuiltData'
+[2020.01.28-22.53.44:908][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Bark3': Can't find file.
+[2020.01.28-22.53.44:908][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Bark3': Can't find file.
+[2020.01.28-22.53.44:908][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Bark3.M_Bark3'
+[2020.01.28-22.53.44:911][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Chair1': Can't find file.
+[2020.01.28-22.53.44:911][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Chair1': Can't find file.
+[2020.01.28-22.53.44:911][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Chair1.M_Chair1'
+[2020.01.28-22.53.44:912][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Door_inst': Can't find file.
+[2020.01.28-22.53.44:912][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Door_inst': Can't find file.
+[2020.01.28-22.53.44:912][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Door_inst.M_Door_inst'
+[2020.01.28-22.53.44:912][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Fog_inst': Can't find file.
+[2020.01.28-22.53.44:912][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Fog_inst': Can't find file.
+[2020.01.28-22.53.44:912][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Fog_inst.M_Fog_inst'
+[2020.01.28-22.53.44:912][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Glass_Inst': Can't find file.
+[2020.01.28-22.53.44:912][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Glass_Inst': Can't find file.
+[2020.01.28-22.53.44:912][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Glass_Inst.M_Glass_Inst'
+[2020.01.28-22.53.44:912][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Ground_inst': Can't find file.
+[2020.01.28-22.53.44:912][751]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Ground_inst': Can't find file.
+[2020.01.28-22.53.44:913][751]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Ground_inst.M_Ground_inst'
+[2020.01.28-22.53.45:239][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Road_inst': Can't find file.
+[2020.01.28-22.53.45:239][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Road_inst': Can't find file.
+[2020.01.28-22.53.45:239][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Road_inst.M_Road_inst'
+[2020.01.28-22.53.45:240][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Roof': Can't find file.
+[2020.01.28-22.53.45:240][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Roof': Can't find file.
+[2020.01.28-22.53.45:240][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Roof.M_Roof'
+[2020.01.28-22.53.45:240][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Table': Can't find file.
+[2020.01.28-22.53.45:240][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_Table': Can't find file.
+[2020.01.28-22.53.45:240][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_Table.M_Table'
+[2020.01.28-22.53.45:240][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_chair2': Can't find file.
+[2020.01.28-22.53.45:240][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_chair2': Can't find file.
+[2020.01.28-22.53.45:240][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_chair2.M_chair2'
+[2020.01.28-22.53.45:240][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_1': Can't find file.
+[2020.01.28-22.53.45:241][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_1': Can't find file.
+[2020.01.28-22.53.45:241][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_imp_1.M_imp_1'
+[2020.01.28-22.53.45:241][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_3': Can't find file.
+[2020.01.28-22.53.45:241][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_3': Can't find file.
+[2020.01.28-22.53.45:241][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_imp_3.M_imp_3'
+[2020.01.28-22.53.45:241][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_multi1': Can't find file.
+[2020.01.28-22.53.45:241][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_multi1': Can't find file.
+[2020.01.28-22.53.45:241][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_imp_multi1.M_imp_multi1'
+[2020.01.28-22.53.45:241][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_multi2': Can't find file.
+[2020.01.28-22.53.45:241][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_multi2': Can't find file.
+[2020.01.28-22.53.45:241][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_imp_multi2.M_imp_multi2'
+[2020.01.28-22.53.45:241][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_multi3': Can't find file.
+[2020.01.28-22.53.45:242][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_multi3': Can't find file.
+[2020.01.28-22.53.45:242][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_imp_multi3.M_imp_multi3'
+[2020.01.28-22.53.45:242][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_thin1': Can't find file.
+[2020.01.28-22.53.45:242][752]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_imp_thin1': Can't find file.
+[2020.01.28-22.53.45:242][752]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_imp_thin1.M_imp_thin1'
+[2020.01.28-22.53.45:572][753]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_pipes_inst': Can't find file.
+[2020.01.28-22.53.45:572][753]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/Instances/M_pipes_inst': Can't find file.
+[2020.01.28-22.53.45:572][753]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/Instances/M_pipes_inst.M_pipes_inst'
+[2020.01.28-22.53.45:912][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Blanks': Can't find file.
+[2020.01.28-22.53.45:912][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Blanks': Can't find file.
+[2020.01.28-22.53.45:912][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_Blanks.M_Blanks'
+[2020.01.28-22.53.45:912][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Carpet': Can't find file.
+[2020.01.28-22.53.45:912][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Carpet': Can't find file.
+[2020.01.28-22.53.45:912][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_Carpet.M_Carpet'
+[2020.01.28-22.53.45:912][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Door': Can't find file.
+[2020.01.28-22.53.45:912][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Door': Can't find file.
+[2020.01.28-22.53.45:912][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_Door.M_Door'
+[2020.01.28-22.53.45:912][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Fog': Can't find file.
+[2020.01.28-22.53.45:913][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Fog': Can't find file.
+[2020.01.28-22.53.45:913][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_Fog.M_Fog'
+[2020.01.28-22.53.45:913][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Glass': Can't find file.
+[2020.01.28-22.53.45:913][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Glass': Can't find file.
+[2020.01.28-22.53.45:913][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_Glass.M_Glass'
+[2020.01.28-22.53.45:913][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Ground': Can't find file.
+[2020.01.28-22.53.45:913][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Ground': Can't find file.
+[2020.01.28-22.53.45:913][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_Ground.M_Ground'
+[2020.01.28-22.53.45:913][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_House': Can't find file.
+[2020.01.28-22.53.45:913][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_House': Can't find file.
+[2020.01.28-22.53.45:913][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_House.M_House'
+[2020.01.28-22.53.45:913][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Road': Can't find file.
+[2020.01.28-22.53.45:914][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Road': Can't find file.
+[2020.01.28-22.53.45:914][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_Road.M_Road'
+[2020.01.28-22.53.45:914][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Wallpaper': Can't find file.
+[2020.01.28-22.53.45:914][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_Wallpaper': Can't find file.
+[2020.01.28-22.53.45:914][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_Wallpaper.M_Wallpaper'
+[2020.01.28-22.53.45:914][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_pipe': Can't find file.
+[2020.01.28-22.53.45:914][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_pipe': Can't find file.
+[2020.01.28-22.53.45:914][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_pipe.M_pipe'
+[2020.01.28-22.53.45:914][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_stairs': Can't find file.
+[2020.01.28-22.53.45:914][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Materials/M_stairs': Can't find file.
+[2020.01.28-22.53.45:914][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Materials/M_stairs.M_stairs'
+[2020.01.28-22.53.45:914][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Particle/P_Fog': Can't find file.
+[2020.01.28-22.53.45:915][754]LogLinker: Warning: Failed to load '/Game/DarkForest/Particle/P_Fog': Can't find file.
+[2020.01.28-22.53.45:915][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Particle/P_Fog.P_Fog'
+[2020.01.28-22.53.45:915][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Carpet': Can't find file.
+[2020.01.28-22.53.45:915][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Carpet': Can't find file.
+[2020.01.28-22.53.45:915][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Carpet.SM_Carpet'
+[2020.01.28-22.53.45:919][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Chair': Can't find file.
+[2020.01.28-22.53.45:919][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Chair': Can't find file.
+[2020.01.28-22.53.45:919][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Chair.SM_Chair'
+[2020.01.28-22.53.45:919][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_Corner': Can't find file.
+[2020.01.28-22.53.45:919][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_Corner': Can't find file.
+[2020.01.28-22.53.45:919][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_House_Corner.SM_House_Corner'
+[2020.01.28-22.53.45:919][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_InnerWalls': Can't find file.
+[2020.01.28-22.53.45:919][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_InnerWalls': Can't find file.
+[2020.01.28-22.53.45:919][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_House_InnerWalls.SM_House_InnerWalls'
+[2020.01.28-22.53.45:920][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_pipe': Can't find file.
+[2020.01.28-22.53.45:920][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_pipe': Can't find file.
+[2020.01.28-22.53.45:920][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_House_pipe.SM_House_pipe'
+[2020.01.28-22.53.45:920][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_roof_corner': Can't find file.
+[2020.01.28-22.53.45:920][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_roof_corner': Can't find file.
+[2020.01.28-22.53.45:920][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_House_roof_corner.SM_House_roof_corner'
+[2020.01.28-22.53.45:920][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_roof_plane': Can't find file.
+[2020.01.28-22.53.45:920][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_roof_plane': Can't find file.
+[2020.01.28-22.53.45:920][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_House_roof_plane.SM_House_roof_plane'
+[2020.01.28-22.53.45:920][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_roof_single': Can't find file.
+[2020.01.28-22.53.45:920][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_roof_single': Can't find file.
+[2020.01.28-22.53.45:920][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_House_roof_single.SM_House_roof_single'
+[2020.01.28-22.53.45:921][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_single': Can't find file.
+[2020.01.28-22.53.45:921][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_House_single': Can't find file.
+[2020.01.28-22.53.45:921][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_House_single.SM_House_single'
+[2020.01.28-22.53.45:921][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Plant_v1': Can't find file.
+[2020.01.28-22.53.45:921][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Plant_v1': Can't find file.
+[2020.01.28-22.53.45:921][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Plant_v1.SM_Plant_v1'
+[2020.01.28-22.53.45:921][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Plant_v2': Can't find file.
+[2020.01.28-22.53.45:921][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Plant_v2': Can't find file.
+[2020.01.28-22.53.45:921][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Plant_v2.SM_Plant_v2'
+[2020.01.28-22.53.45:921][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Plant_v3': Can't find file.
+[2020.01.28-22.53.45:921][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Plant_v3': Can't find file.
+[2020.01.28-22.53.45:921][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Plant_v3.SM_Plant_v3'
+[2020.01.28-22.53.45:922][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Plant_v4': Can't find file.
+[2020.01.28-22.53.45:922][754]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Plant_v4': Can't find file.
+[2020.01.28-22.53.45:922][754]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Plant_v4.SM_Plant_v4'
+[2020.01.28-22.53.46:243][755]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Road': Can't find file.
+[2020.01.28-22.53.46:243][755]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Road': Can't find file.
+[2020.01.28-22.53.46:243][755]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Road.SM_Road'
+[2020.01.28-22.53.46:244][755]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Table': Can't find file.
+[2020.01.28-22.53.46:244][755]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Table': Can't find file.
+[2020.01.28-22.53.46:244][755]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Table.SM_Table'
+[2020.01.28-22.53.46:244][755]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree3': Can't find file.
+[2020.01.28-22.53.46:244][755]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree3': Can't find file.
+[2020.01.28-22.53.46:244][755]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Tree3.SM_Tree3'
+[2020.01.28-22.53.46:576][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree_Multi1': Can't find file.
+[2020.01.28-22.53.46:576][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree_Multi1': Can't find file.
+[2020.01.28-22.53.46:576][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Tree_Multi1.SM_Tree_Multi1'
+[2020.01.28-22.53.46:576][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree_Multi2': Can't find file.
+[2020.01.28-22.53.46:577][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree_Multi2': Can't find file.
+[2020.01.28-22.53.46:577][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Tree_Multi2.SM_Tree_Multi2'
+[2020.01.28-22.53.46:577][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree_Multi3': Can't find file.
+[2020.01.28-22.53.46:577][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree_Multi3': Can't find file.
+[2020.01.28-22.53.46:577][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Tree_Multi3.SM_Tree_Multi3'
+[2020.01.28-22.53.46:577][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree_Thin1': Can't find file.
+[2020.01.28-22.53.46:577][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_Tree_Thin1': Can't find file.
+[2020.01.28-22.53.46:577][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_Tree_Thin1.SM_Tree_Thin1'
+[2020.01.28-22.53.46:577][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_house_Door': Can't find file.
+[2020.01.28-22.53.46:577][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_house_Door': Can't find file.
+[2020.01.28-22.53.46:578][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_house_Door.SM_house_Door'
+[2020.01.28-22.53.46:578][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_house_Door_pivotZero': Can't find file.
+[2020.01.28-22.53.46:578][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_house_Door_pivotZero': Can't find file.
+[2020.01.28-22.53.46:578][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_house_Door_pivotZero.SM_house_Door_pivotZero'
+[2020.01.28-22.53.46:578][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_house_doorway': Can't find file.
+[2020.01.28-22.53.46:578][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_house_doorway': Can't find file.
+[2020.01.28-22.53.46:578][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_house_doorway.SM_house_doorway'
+[2020.01.28-22.53.46:578][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_house_stairs': Can't find file.
+[2020.01.28-22.53.46:578][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_house_stairs': Can't find file.
+[2020.01.28-22.53.46:578][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_house_stairs.SM_house_stairs'
+[2020.01.28-22.53.46:578][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_tree1': Can't find file.
+[2020.01.28-22.53.46:579][756]LogLinker: Warning: Failed to load '/Game/DarkForest/StaticMeshes/SM_tree1': Can't find file.
+[2020.01.28-22.53.46:579][756]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/StaticMeshes/SM_tree1.SM_tree1'
+[2020.01.28-22.53.46:910][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Blanks_D': Can't find file.
+[2020.01.28-22.53.46:911][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Blanks_D': Can't find file.
+[2020.01.28-22.53.46:911][757]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Blanks_D.TX_Blanks_D'
+[2020.01.28-22.53.46:911][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Blanks_N': Can't find file.
+[2020.01.28-22.53.46:911][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Blanks_N': Can't find file.
+[2020.01.28-22.53.46:911][757]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Blanks_N.TX_Blanks_N'
+[2020.01.28-22.53.46:911][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Bronze_D': Can't find file.
+[2020.01.28-22.53.46:911][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Bronze_D': Can't find file.
+[2020.01.28-22.53.46:911][757]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Bronze_D.TX_Bronze_D'
+[2020.01.28-22.53.46:911][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Fog_mask': Can't find file.
+[2020.01.28-22.53.46:911][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Fog_mask': Can't find file.
+[2020.01.28-22.53.46:911][757]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Fog_mask.TX_Fog_mask'
+[2020.01.28-22.53.46:912][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_House_D': Can't find file.
+[2020.01.28-22.53.46:912][757]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_House_D': Can't find file.
+[2020.01.28-22.53.46:912][757]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_House_D.TX_House_D'
+[2020.01.28-22.53.47:248][758]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp3': Can't find file.
+[2020.01.28-22.53.47:248][758]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp3': Can't find file.
+[2020.01.28-22.53.47:248][758]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Imp3.TX_Imp3'
+[2020.01.28-22.53.47:248][758]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp_Multi1': Can't find file.
+[2020.01.28-22.53.47:248][758]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp_Multi1': Can't find file.
+[2020.01.28-22.53.47:248][758]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Imp_Multi1.TX_Imp_Multi1'
+[2020.01.28-22.53.47:248][758]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp_Multi2': Can't find file.
+[2020.01.28-22.53.47:248][758]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp_Multi2': Can't find file.
+[2020.01.28-22.53.47:248][758]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Imp_Multi2.TX_Imp_Multi2'
+[2020.01.28-22.53.47:248][758]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp_Multi3': Can't find file.
+[2020.01.28-22.53.47:249][758]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp_Multi3': Can't find file.
+[2020.01.28-22.53.47:249][758]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Imp_Multi3.TX_Imp_Multi3'
+[2020.01.28-22.53.47:583][759]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp_thin1': Can't find file.
+[2020.01.28-22.53.47:583][759]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Imp_thin1': Can't find file.
+[2020.01.28-22.53.47:583][759]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Imp_thin1.TX_Imp_thin1'
+[2020.01.28-22.53.47:583][759]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Metal_D': Can't find file.
+[2020.01.28-22.53.47:583][759]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Metal_D': Can't find file.
+[2020.01.28-22.53.47:584][759]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Metal_D.TX_Metal_D'
+[2020.01.28-22.53.47:584][759]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Metal_N': Can't find file.
+[2020.01.28-22.53.47:584][759]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Metal_N': Can't find file.
+[2020.01.28-22.53.47:584][759]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Metal_N.TX_Metal_N'
+[2020.01.28-22.53.47:916][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Mud_Disp': Can't find file.
+[2020.01.28-22.53.47:917][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Mud_Disp': Can't find file.
+[2020.01.28-22.53.47:917][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Mud_Disp.TX_Mud_Disp'
+[2020.01.28-22.53.47:917][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Mud_R': Can't find file.
+[2020.01.28-22.53.47:917][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Mud_R': Can't find file.
+[2020.01.28-22.53.47:917][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Mud_R.TX_Mud_R'
+[2020.01.28-22.53.47:917][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Road_D': Can't find file.
+[2020.01.28-22.53.47:917][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Road_D': Can't find file.
+[2020.01.28-22.53.47:917][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Road_D.TX_Road_D'
+[2020.01.28-22.53.47:917][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Road_N': Can't find file.
+[2020.01.28-22.53.47:917][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Road_N': Can't find file.
+[2020.01.28-22.53.47:917][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Road_N.TX_Road_N'
+[2020.01.28-22.53.47:918][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Stairs_D': Can't find file.
+[2020.01.28-22.53.47:918][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Stairs_D': Can't find file.
+[2020.01.28-22.53.47:918][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Stairs_D.TX_Stairs_D'
+[2020.01.28-22.53.47:918][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Stairs_N': Can't find file.
+[2020.01.28-22.53.47:918][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Stairs_N': Can't find file.
+[2020.01.28-22.53.47:918][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Stairs_N.TX_Stairs_N'
+[2020.01.28-22.53.47:918][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Wallpaper_D': Can't find file.
+[2020.01.28-22.53.47:918][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Wallpaper_D': Can't find file.
+[2020.01.28-22.53.47:918][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Wallpaper_D.TX_Wallpaper_D'
+[2020.01.28-22.53.47:918][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Wallpaper_N': Can't find file.
+[2020.01.28-22.53.47:918][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_Wallpaper_N': Can't find file.
+[2020.01.28-22.53.47:918][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_Wallpaper_N.TX_Wallpaper_N'
+[2020.01.28-22.53.47:919][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_bark1_D': Can't find file.
+[2020.01.28-22.53.47:919][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_bark1_D': Can't find file.
+[2020.01.28-22.53.47:919][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_bark1_D.TX_bark1_D'
+[2020.01.28-22.53.47:919][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_bark1_N': Can't find file.
+[2020.01.28-22.53.47:919][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_bark1_N': Can't find file.
+[2020.01.28-22.53.47:919][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_bark1_N.TX_bark1_N'
+[2020.01.28-22.53.47:919][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_carpet_D_baseTexBaked': Can't find file.
+[2020.01.28-22.53.47:919][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_carpet_D_baseTexBaked': Can't find file.
+[2020.01.28-22.53.47:919][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_carpet_D_baseTexBaked.TX_carpet_D_baseTexBaked'
+[2020.01.28-22.53.47:919][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_carpet_N': Can't find file.
+[2020.01.28-22.53.47:919][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_carpet_N': Can't find file.
+[2020.01.28-22.53.47:919][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_carpet_N.TX_carpet_N'
+[2020.01.28-22.53.47:920][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_door_D': Can't find file.
+[2020.01.28-22.53.47:920][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_door_D': Can't find file.
+[2020.01.28-22.53.47:920][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_door_D.TX_door_D'
+[2020.01.28-22.53.47:920][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_fabric_N': Can't find file.
+[2020.01.28-22.53.47:920][760]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/TX_fabric_N': Can't find file.
+[2020.01.28-22.53.47:920][760]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/TX_fabric_N.TX_fabric_N'
+[2020.01.28-22.53.48:251][761]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/tx_door_N': Can't find file.
+[2020.01.28-22.53.48:251][761]LogLinker: Warning: Failed to load '/Game/DarkForest/Textures/tx_door_N': Can't find file.
+[2020.01.28-22.53.48:251][761]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/DarkForest/Textures/tx_door_N.tx_door_N'
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e37179ff70 [can pipeline])
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: libcurl info message cache 1 (Re-using existing connection! (#53) with host datarouter.ol.epicgames.com)
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.5.92.97) port 443 (#53))
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: 000001E391E00B80: libcurl info message cache 7 (Closing connection 53)
+[2020.01.28-22.54.12:355][834]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e37179ff70 [can pipeline])
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: libcurl info message cache 1 (Re-using existing connection! (#54) with host datarouter.ol.epicgames.com)
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.3.191.118) port 443 (#54))
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: 000001E3ABD01E40: libcurl info message cache 7 (Closing connection 54)
+[2020.01.28-22.58.12:042][ 82]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.28-23.00.43:919][551]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.28-23.01.39:204][537]Cmd: TRANSACTION UNDO
+[2020.01.28-23.01.39:204][537]LogEditorTransaction: Undo Move World Outliner Items
+[2020.01.28-23.01.39:217][537]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.01.39:263][538]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.01.39:263][538]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.01.39:264][538]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.01.39:264][538]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.01.39:264][538]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.01.39:264][538]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.01.39:264][538]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.01.39:264][538]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.01.39:999][567]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.01.40:544][596]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.01.40:544][596]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.01.40:544][596]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.01.40:544][596]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.01.40:544][596]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.01.40:544][596]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e37179ff70 [can pipeline])
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: libcurl info message cache 1 (Re-using existing connection! (#55) with host datarouter.ol.epicgames.com)
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.87.181.63) port 443 (#55))
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.28-23.02.12:200][485]LogHttp: Warning: 000001E39D8A6340: libcurl info message cache 7 (Closing connection 55)
+[2020.01.28-23.02.12:217][486]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.28-23.02.46:354][515]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.28-23.02.59:132][272]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.28-23.03.54:410][574]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.28-23.04.22:252][228]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2020.01.28-23.04.23:635][309]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.28-23.05.10:770][112]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.01.28-23.05.17:547][511]Cmd: TRANSACTION UNDO
+[2020.01.28-23.05.17:547][511]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.05.17:567][511]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.05.17:602][512]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.05.17:602][512]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.05.17:602][512]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.05.17:602][512]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.05.17:602][512]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.05.17:602][512]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.05.17:602][512]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.05.17:602][512]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.05.18:369][545]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.01.28-23.05.18:866][570]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.05.18:866][570]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.05.18:866][570]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.05.18:866][570]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.05.18:866][570]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.05.18:866][570]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.05.20:751][677]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.28-23.05.24:191][878]Cmd: TRANSACTION UNDO
+[2020.01.28-23.05.24:191][878]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.05.24:211][878]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.05.24:226][878]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.05.24:227][878]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.05.24:227][878]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.05.24:227][878]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.05.24:227][878]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.05.24:227][878]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.05.24:227][878]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.05.24:227][878]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.05.24:820][897]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.05.24:927][902]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.28-23.05.25:347][920]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.05.25:347][920]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.05.25:347][920]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.05.25:347][920]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.05.25:348][920]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.05.25:348][920]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.05.34:354][456]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.28-23.05.55:143][693]LogGeometryMode: Warning: Unable to find BoxBrush3 Brush(s) in new BSP
+[2020.01.28-23.05.55:143][693]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.28-23.06.01:812][ 88]Cmd: EDCALLBACK SURFPROPS
+[2020.01.28-23.06.02:936][153]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2020.01.28-23.06.03:371][178]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2020.01.28-23.06.04:056][217]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2020.01.28-23.06.05:392][297]LogGeometryMode: Warning: Unable to find BoxBrush3 Brush(s) in new BSP
+[2020.01.28-23.06.05:392][297]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e37179ff70 [can pipeline])
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: libcurl info message cache 1 (Re-using existing connection! (#56) with host datarouter.ol.epicgames.com)
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.22.193.227) port 443 (#56))
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.28-23.06.12:120][695]LogHttp: Warning: 000001E3BC900540: libcurl info message cache 7 (Closing connection 56)
+[2020.01.28-23.06.12:136][696]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.28-23.06.18:089][ 49]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush3)
+[2020.01.28-23.06.24:774][447]Cmd: TRANSACTION UNDO
+[2020.01.28-23.06.24:774][447]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.06.24:778][447]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.28-23.06.24:778][447]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2020.01.28-23.06.24:778][447]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.28-23.06.24:791][447]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.06.24:831][448]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.06.24:831][448]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.06.24:831][448]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.06.24:832][448]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.06.24:832][448]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.06.24:832][448]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.06.24:832][448]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.06.24:832][448]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.06.25:579][478]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.01.28-23.06.26:099][509]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.06.26:099][509]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.06.26:099][509]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.06.26:099][509]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.06.26:099][509]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.06.26:099][509]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.06.34:719][ 22]Cmd: TRANSACTION UNDO
+[2020.01.28-23.06.34:719][ 22]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.06.34:724][ 22]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.28-23.06.34:724][ 22]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2020.01.28-23.06.34:724][ 22]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.28-23.06.34:737][ 22]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.06.34:756][ 22]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.06.34:756][ 22]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.06.34:756][ 22]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.06.34:756][ 22]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.06.34:756][ 22]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.06.34:756][ 22]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.06.34:756][ 22]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.06.34:756][ 22]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.06.35:344][ 42]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.06.35:888][ 74]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.06.35:888][ 74]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.06.35:889][ 74]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.06.35:889][ 74]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.06.35:889][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.06.35:889][ 74]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.06.40:225][333]Cmd: TRANSACTION UNDO
+[2020.01.28-23.06.40:225][333]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.06.40:229][333]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.28-23.06.40:229][333]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2020.01.28-23.06.40:229][333]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.28-23.06.40:241][333]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.06.40:252][333]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.06.40:252][333]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.06.40:252][333]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.06.40:252][333]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.06.40:252][333]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.06.40:252][333]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.06.40:252][333]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.06.40:252][333]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.06.40:818][351]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.06.41:364][383]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.06.41:364][383]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.06.41:364][383]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.06.41:364][383]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.06.41:364][383]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.06.41:364][383]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.07.40:445][904]Cmd: TRANSACTION UNDO
+[2020.01.28-23.07.40:446][904]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.07.40:449][904]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2020.01.28-23.07.40:449][904]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2020.01.28-23.07.40:450][904]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.28-23.07.40:466][904]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.07.40:503][905]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.07.40:503][905]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.07.40:503][905]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.07.40:503][905]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.07.40:503][905]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.07.40:503][905]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.07.40:503][905]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.07.40:503][905]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.07.41:248][937]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.07.41:768][965]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.07.41:768][965]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.07.41:769][965]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.07.41:769][965]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.07.41:769][965]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.07.41:769][965]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.08.00:270][ 67]LogGeometryMode: Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2020.01.28-23.08.00:270][ 67]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.28-23.08.30:610][871]Cmd: TRANSACTION UNDO
+[2020.01.28-23.08.30:610][871]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.08.30:615][871]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.28-23.08.30:615][871]LogGeometryMode: Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
+[2020.01.28-23.08.30:615][871]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.28-23.08.30:627][871]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.08.30:667][872]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.08.30:667][872]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.08.30:667][872]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.08.30:667][872]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.08.30:667][872]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.08.30:667][872]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.08.30:667][872]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.08.30:667][872]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.08.31:399][903]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.08.31:952][932]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.08.31:952][932]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.08.31:952][932]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.08.31:952][932]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.08.31:952][932]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.08.31:952][932]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.08.47:512][856]Cmd: TRANSACTION UNDO
+[2020.01.28-23.08.47:512][856]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.08.47:532][856]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.08.47:574][857]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.08.47:574][857]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.08.47:574][857]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.08.47:574][857]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.08.47:574][857]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.08.47:574][857]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.08.47:574][857]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.08.47:574][857]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.08.48:164][878]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.08.48:184][879]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.28-23.08.48:706][901]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.08.48:706][901]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.08.48:706][901]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.08.48:706][901]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.08.48:706][901]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.08.48:706][901]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.08.49:824][966]Cmd: DELETE
+[2020.01.28-23.08.49:824][966]Cmd: ACTOR DELETE
+[2020.01.28-23.08.49:831][966]LogEditorActor: Deleted Actor: Brush
+[2020.01.28-23.08.49:858][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.01.28-23.08.49:862][966]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2020.01.28-23.09.03:780][796]Cmd: TRANSACTION UNDO
+[2020.01.28-23.09.03:780][796]LogEditorTransaction: Undo Move Actors
+[2020.01.28-23.09.03:799][796]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.09.03:816][796]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.09.03:816][796]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.09.03:816][796]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.09.03:816][796]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.09.03:816][796]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.09.03:816][796]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.09.03:816][796]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.09.03:816][796]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.09.04:402][815]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.09.04:944][844]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.09.04:944][844]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.09.04:944][844]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.09.04:944][844]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.09.04:944][844]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.09.04:944][844]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.09.09:605][123]LogActorFactory: Actor Factory created Cube
+[2020.01.28-23.09.10:722][189]LogActorFactory: Actor Factory created Cube
+[2020.01.28-23.09.11:926][260]Cmd: TRANSACTION UNDO
+[2020.01.28-23.09.11:926][260]LogEditorTransaction: Undo Create Actors
+[2020.01.28-23.09.11:945][260]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.09.11:984][261]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.09.11:984][261]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.09.11:984][261]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.09.11:984][261]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.09.11:984][261]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.09.11:984][261]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.09.11:984][261]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.09.11:984][261]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.09.12:539][279]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.09.13:098][311]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.09.13:098][311]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.09.13:098][311]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.09.13:098][311]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.09.13:098][311]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.09.13:098][311]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.09.20:916][777]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.28-23.09.23:278][918]Cmd: TRANSACTION UNDO
+[2020.01.28-23.09.23:278][918]LogEditorTransaction: Undo Brush Add
+[2020.01.28-23.09.23:289][918]LogMaterial: Display: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2020.01.28-23.09.23:323][919]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.28-23.09.23:323][919]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.01.28-23.09.23:323][919]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.01.28-23.09.23:323][919]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.28-23.09.23:323][919]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.01.28-23.09.23:323][919]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.28-23.09.23:323][919]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.28-23.09.23:323][919]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.01.28-23.09.23:910][941]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.01.28-23.09.24:451][972]MaterialEditorStats: Base pass shader: 126 instructions
+[2020.01.28-23.09.24:451][972]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2020.01.28-23.09.24:451][972]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.01.28-23.09.24:451][972]MaterialEditorStats: Texture samplers: 5/16
+[2020.01.28-23.09.24:451][972]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.01.28-23.09.24:451][972]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e37179ff70 [can pipeline])
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: libcurl info message cache 1 (Re-using existing connection! (#57) with host datarouter.ol.epicgames.com)
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.44.188.211) port 443 (#57))
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.28-23.10.12:256][825]LogHttp: Warning: 000001E3C0A44680: libcurl info message cache 7 (Closing connection 57)
+[2020.01.28-23.10.12:274][826]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5D2372-4974-7045-BB63-F89B92026DF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.28-23.10.26:229][662]LogSlate: Window 'Select Path' being destroyed
+[2020.01.28-23.10.26:362][662]LogStaticMesh: Building static mesh stairs...
+[2020.01.28-23.10.26:371][662]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/stairs.stairs
+[2020.01.28-23.10.26:373][662]LogActorFactory: Actor Factory created stairs
+[2020.01.28-23.10.26:390][662]LogEditor: Error: Actor 'Brush /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush' is marked pending kill and cannot be converted
+[2020.01.28-23.10.26:390][662]LogEditor: Error: Actor 'Brush /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush' is marked pending kill and cannot be converted
+[2020.01.28-23.10.26:390][662]EditorErrors: New page: Actor Reattachment
+[2020.01.28-23.10.26:418][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.01.28-23.10.44:337][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.01.28-23.10.44:375][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.01.28-23.10.44:559][516]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMap5F8A306949BEA47D27A31BAC5B42D639.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.28-23.10.44:580][516]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.231
+[2020.01.28-23.10.44:589][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/stairs" FILE="D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/Meshes/stairs.uasset" SILENT=true
+[2020.01.28-23.10.44:598][516]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/stairs2182740B443BFC26854638A639669B80.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/Meshes/stairs.uasset'
+[2020.01.28-23.10.44:614][516]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.28-23.10.44:614][516]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.28-23.10.44:614][516]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/stairs.stairs
