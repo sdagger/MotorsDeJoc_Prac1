@@ -1033,3 +1033,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.29-16.05.10:749][929]LogHttp: Warning: 0000020CB9E316C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
 [2020.01.29-16.05.10:749][929]LogHttp: Warning: 0000020CB9E316C0: libcurl info message cache 7 (Closing connection 7)
 [2020.01.29-16.05.11:083][930]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.29-16.07.00:938][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.01.29-16.07.01:124][257]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMap_Auto1DE2122744C3CA07E641073A434D35EEC.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.01.29-16.07.01:129][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.216
+[2020.01.29-16.07.01:129][257]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.216
