@@ -1314,3 +1314,682 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.29-00.03.37:018][691]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2020.01.29-00.03.37:018][691]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2020.01.29-00.03.42:921][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.01.29-00.05.19:630][609]BlueprintLog: New page: Compile Door_Blueprint
+[2020.01.29-00.05.19:863][609]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.01.29-00.05.20:627][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door_Blueprint" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset" SILENT=true
+[2020.01.29-00.05.20:654][648]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door_BlueprintE24DA7914D34C638340FD9B5A81EB9C7.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset'
+[2020.01.29-00.05.20:668][648]AssetCheck: New page: Asset Save: Door_Blueprint
+[2020.01.29-00.05.20:668][648]LogContentValidation: Display: Validating Blueprint /Game/Door_Blueprint.Door_Blueprint
+[2020.01.29-00.05.23:177][795]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.05.23:189][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.05.23:189][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.29-00.05.23:189][795]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:05:23 AM)
+[2020.01.29-00.05.23:189][795]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.05.23:285][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096861s)
+[2020.01.29-00.05.23:287][795]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.05.23:287][795]LogPlayLevel: PIE: World Init took: (0.001390s)
+[2020.01.29-00.05.23:287][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.098553s)
+[2020.01.29-00.05.23:323][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.01.29-00.05.23:324][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.05.23:324][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.05.23:324][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.05.23:324][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.05.23:324][795]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.05.23:324][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.05.23:324][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.05.23:324][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.05.23:325][795]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.05.23:325][795]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.05.23:335][795]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.05.23:391][795]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.05.23:394][795]LogInit: FAudioDevice initialized.
+[2020.01.29-00.05.23:405][795]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.05.23:408][795]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.05.23
+[2020.01.29-00.05.23:409][795]LogWorld: Bringing up level for play took: 0.002642
+[2020.01.29-00.05.23:409][795]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.01.29-00.05.23:411][795]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.037
+[2020.01.29-00.05.23:411][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.05.31:740][289]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.05.31:740][289]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.05.31:740][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.05.31:741][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.05.31:741][289]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.05.31:741][289]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.05.31:741][289]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.05.31:741][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.05.31:768][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.05.31:768][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.05.31:774][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.05.31:810][289]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.05.31:813][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.05.31:819][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.01.29-00.05.31:868][291]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.01.29-00.05.37:044][576]LogEditorTransaction: Undo Delete current selection
+[2020.01.29-00.06.25:990][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door_Blueprint" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset" SILENT=true
+[2020.01.29-00.06.26:018][473]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door_BlueprintC29CC17E416FDA0B914728AE8425ACA8.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset'
+[2020.01.29-00.06.26:031][473]AssetCheck: New page: Asset Save: Door_Blueprint
+[2020.01.29-00.06.26:031][473]LogContentValidation: Display: Validating Blueprint /Game/Door_Blueprint.Door_Blueprint
+[2020.01.29-00.06.30:359][728]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.06.30:371][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.06.30:371][728]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.29-00.06.30:372][728]LogPlayLevel: [PlayLevel] Compiling Door_Blueprint before play...
+[2020.01.29-00.06.30:616][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.01.29-00.06.30:619][728]LogPlayLevel: PlayLevel: Blueprint regeneration took 247 ms (1 blueprints)
+[2020.01.29-00.06.30:619][728]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:06:30 AM)
+[2020.01.29-00.06.30:619][728]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.06.30:712][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094053s)
+[2020.01.29-00.06.30:714][728]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.06.30:714][728]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2020.01.29-00.06.30:714][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.095497s)
+[2020.01.29-00.06.30:750][728]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.01.29-00.06.30:750][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.06.30:750][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.06.30:750][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.06.30:750][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.06.30:750][728]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.06.30:750][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.06.30:750][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.06.30:750][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.06.30:751][728]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.06.30:751][728]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.06.30:761][728]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.06.30:806][728]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.06.30:807][728]LogInit: FAudioDevice initialized.
+[2020.01.29-00.06.30:814][728]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.06.30:816][728]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.06.30
+[2020.01.29-00.06.30:817][728]LogWorld: Bringing up level for play took: 0.002523
+[2020.01.29-00.06.30:817][728]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.01.29-00.06.30:819][728]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.445
+[2020.01.29-00.06.30:819][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.06.40:957][310]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.06.40:957][310]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.06.40:957][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.06.40:957][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.06.40:958][310]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.06.40:958][310]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.06.40:958][310]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.06.40:958][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.06.40:982][310]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.06.40:982][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.06.40:987][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.06.41:017][310]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.06.41:021][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.06.41:026][310]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.01.29-00.06.41:079][312]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.01.29-00.06.54:570][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door_Blueprint" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset" SILENT=true
+[2020.01.29-00.06.54:595][ 84]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door_Blueprint61A8538E4BCB9ED9FBD914BABA8F5EE8.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset'
+[2020.01.29-00.06.54:608][ 84]AssetCheck: New page: Asset Save: Door_Blueprint
+[2020.01.29-00.06.54:608][ 84]LogContentValidation: Display: Validating Blueprint /Game/Door_Blueprint.Door_Blueprint
+[2020.01.29-00.06.57:392][249]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.06.57:406][249]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.06.57:407][249]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.29-00.06.57:407][249]LogPlayLevel: [PlayLevel] Compiling Door_Blueprint before play...
+[2020.01.29-00.06.57:644][249]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.01.29-00.06.57:645][249]LogPlayLevel: PlayLevel: Blueprint regeneration took 238 ms (1 blueprints)
+[2020.01.29-00.06.57:646][249]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:06:57 AM)
+[2020.01.29-00.06.57:646][249]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.06.57:741][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095762s)
+[2020.01.29-00.06.57:742][249]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.06.57:742][249]LogPlayLevel: PIE: World Init took: (0.001181s)
+[2020.01.29-00.06.57:742][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.097074s)
+[2020.01.29-00.06.57:778][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.01.29-00.06.57:779][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.06.57:779][249]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.06.57:779][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.06.57:779][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.06.57:779][249]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.06.57:779][249]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.06.57:779][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.06.57:779][249]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.06.57:779][249]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.06.57:779][249]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.06.57:790][249]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.06.57:837][249]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.06.57:838][249]LogInit: FAudioDevice initialized.
+[2020.01.29-00.06.57:845][249]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.06.57:848][249]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.06.57
+[2020.01.29-00.06.57:848][249]LogWorld: Bringing up level for play took: 0.002302
+[2020.01.29-00.06.57:849][249]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.01.29-00.06.57:851][249]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.523
+[2020.01.29-00.06.57:851][249]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.07.10:485][  1]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:502][  2]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:518][  3]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:535][  4]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:552][  5]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:569][  6]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:585][  7]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:602][  8]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:618][  9]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:634][ 10]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:651][ 11]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:668][ 12]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:685][ 13]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:702][ 14]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:718][ 15]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:735][ 16]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:752][ 17]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:768][ 18]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:785][ 19]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:802][ 20]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:818][ 21]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:835][ 22]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:851][ 23]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:868][ 24]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:885][ 25]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:902][ 26]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:918][ 27]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:935][ 28]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:951][ 29]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:968][ 30]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.10:985][ 31]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:002][ 32]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:018][ 33]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:035][ 34]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:052][ 35]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:068][ 36]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:085][ 37]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:102][ 38]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:119][ 39]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:135][ 40]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:151][ 41]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:168][ 42]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:185][ 43]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:201][ 44]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:218][ 45]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:235][ 46]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:251][ 47]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:268][ 48]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:285][ 49]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:302][ 50]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:318][ 51]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:335][ 52]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:352][ 53]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:368][ 54]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:386][ 55]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:402][ 56]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:418][ 57]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:435][ 58]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:452][ 59]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:469][ 60]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:721][ 75]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:736][ 76]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:752][ 77]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:769][ 78]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:786][ 79]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:803][ 80]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:819][ 81]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:835][ 82]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:852][ 83]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:869][ 84]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:885][ 85]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:902][ 86]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:919][ 87]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:935][ 88]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:952][ 89]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:968][ 90]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.11:985][ 91]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:002][ 92]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:018][ 93]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:035][ 94]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:052][ 95]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:068][ 96]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:085][ 97]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:102][ 98]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:118][ 99]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:135][100]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:152][101]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:169][102]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:186][103]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:202][104]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:219][105]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:236][106]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:252][107]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:269][108]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:285][109]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:301][110]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:318][111]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:335][112]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:352][113]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:368][114]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:385][115]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:402][116]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:419][117]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:435][118]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:452][119]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:468][120]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:485][121]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:501][122]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:518][123]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:535][124]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:552][125]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:568][126]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:585][127]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:602][128]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:619][129]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:635][130]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:652][131]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:669][132]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:686][133]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.12:702][134]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Door_Blueprint : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.01.29-00.07.28:324][ 50]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.07.28:324][ 50]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.07.28:325][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.07.28:325][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.07.28:325][ 50]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.07.28:325][ 50]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.07.28:325][ 50]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.07.28:325][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.07.28:337][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.07.28:337][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.07.28:341][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.07.28:375][ 50]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.07.28:380][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.07.28:386][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.01.29-00.07.28:515][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.01.29-00.07.38:692][647]LogSlate: Window 'Message Log' being destroyed
+[2020.01.29-00.07.38:695][647]LogSlate: Window 'Message Log' being destroyed
+[2020.01.29-00.07.39:926][721]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint)
+[2020.01.29-00.07.41:164][793]Cmd: DELETE
+[2020.01.29-00.07.41:164][793]Cmd: ACTOR DELETE
+[2020.01.29-00.07.41:168][793]LogEditorActor: Deleted Actor: Door_Blueprint_C
+[2020.01.29-00.07.41:199][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.01.29-00.07.41:201][793]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2020.01.29-00.07.42:986][898]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint2)
+[2020.01.29-00.07.56:850][722]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.07.56:864][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.07.56:864][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.29-00.07.56:864][722]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:07:56 AM)
+[2020.01.29-00.07.56:864][722]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.07.56:961][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095826s)
+[2020.01.29-00.07.56:962][722]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.07.56:962][722]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2020.01.29-00.07.56:962][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.097320s)
+[2020.01.29-00.07.56:999][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.01.29-00.07.57:001][722]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.07.57:002][722]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.07.57:002][722]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.07.57:002][722]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.07.57:002][722]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.07.57:002][722]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.07.57:002][722]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.07.57:002][722]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.07.57:002][722]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.07.57:002][722]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.07.57:012][722]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.07.57:012][722]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.07.57:012][722]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.07.57:012][722]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.07.57:012][722]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.07.57:013][722]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.07.57:013][722]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.07.57:013][722]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.07.57:013][722]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.07.57:061][722]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.07.57:062][722]LogInit: FAudioDevice initialized.
+[2020.01.29-00.07.57:072][722]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.07.57:075][722]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.07.57
+[2020.01.29-00.07.57:075][722]LogWorld: Bringing up level for play took: 0.002470
+[2020.01.29-00.07.57:075][722]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.01.29-00.07.57:077][722]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.703
+[2020.01.29-00.07.57:077][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.08.11:744][593]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.08.11:744][593]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.08.11:745][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.08.11:745][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.08.11:745][593]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.08.11:745][593]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.08.11:746][593]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.08.11:747][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.08.11:759][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.08.11:759][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.08.11:765][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.08.11:799][593]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.08.11:802][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.08.11:807][593]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.01.29-00.08.11:858][595]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.01.29-00.08.13:716][706]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint2)
+[2020.01.29-00.08.44:836][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.01.29-00.08.44:902][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.01.29-00.08.45:222][547]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMap323829DD48B8D2B7C19E92AF5C18856F.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.29-00.08.45:246][547]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.376
+[2020.01.29-00.08.45:256][547]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.29-00.08.45:256][547]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.29-00.10.16:405][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.01.29-00.10.16:445][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door_Blueprint" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset" SILENT=true
+[2020.01.29-00.10.16:478][750]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door_BlueprintC197240D4136514448D879842B138715.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset'
+[2020.01.29-00.10.16:493][750]AssetCheck: New page: Asset Save: Door_Blueprint
+[2020.01.29-00.10.16:493][750]LogContentValidation: Display: Validating Blueprint /Game/Door_Blueprint.Door_Blueprint
+[2020.01.29-00.12.35:487][ 93]LogSlate: Took 0.017567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.01.29-00.16.10:263][623]BlueprintLog: New page: Compile Door_Blueprint
+[2020.01.29-00.16.10:513][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.01.29-00.16.11:278][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door_Blueprint" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset" SILENT=true
+[2020.01.29-00.16.11:600][660]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door_Blueprint803FAA524CB9419F527BC69C3D7D34AE.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset'
+[2020.01.29-00.16.11:614][660]AssetCheck: New page: Asset Save: Door_Blueprint
+[2020.01.29-00.16.11:614][660]LogContentValidation: Display: Validating Blueprint /Game/Door_Blueprint.Door_Blueprint
+[2020.01.29-00.16.13:750][780]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.16.13:764][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.16.13:764][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.29-00.16.13:764][780]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:16:13 AM)
+[2020.01.29-00.16.13:764][780]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.16.13:861][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096166s)
+[2020.01.29-00.16.13:862][780]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.16.13:862][780]LogPlayLevel: PIE: World Init took: (0.001497s)
+[2020.01.29-00.16.13:862][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.097862s)
+[2020.01.29-00.16.13:897][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.01.29-00.16.13:899][780]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.16.13:899][780]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.16.13:899][780]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.16.13:899][780]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.16.13:899][780]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.16.13:899][780]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.16.13:899][780]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.16.13:899][780]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.16.13:899][780]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.16.13:899][780]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.16.13:910][780]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.16.13:910][780]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.16.13:910][780]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.16.13:910][780]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.16.13:910][780]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.16.13:910][780]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.16.13:910][780]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.16.13:910][780]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.16.13:911][780]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.16.13:959][780]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.16.13:960][780]LogInit: FAudioDevice initialized.
+[2020.01.29-00.16.13:972][780]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.16.13:975][780]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.16.13
+[2020.01.29-00.16.13:976][780]LogWorld: Bringing up level for play took: 0.002851
+[2020.01.29-00.16.13:976][780]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.01.29-00.16.13:978][780]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.396
+[2020.01.29-00.16.13:978][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.16.30:773][741]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=-31.34 Y=13.53 Z=0.00 Location: X=952.65 Y=904.93 Z=228.46 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:8.928 Actor:Door_Blueprint2_3 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2020.01.29-00.16.46:191][662]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.16.46:191][662]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.16.46:191][662]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.16.46:191][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.16.46:191][662]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.16.46:191][662]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.16.46:191][662]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.16.46:192][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.16.46:218][662]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.16.46:218][662]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.16.46:224][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.16.46:259][662]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.16.46:264][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.16.46:270][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.01.29-00.16.46:321][664]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.01.29-00.16.47:827][753]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint2)
+[2020.01.29-00.18.49:907][722]LogSlate: Window 'Tutorials' being destroyed
+[2020.01.29-00.19.06:802][567]LogSlate: Window 'Tutorials' being destroyed
+[2020.01.29-00.19.06:810][567]LogSlate: Window 'Tutorials' being destroyed
+[2020.01.29-00.19.29:482][862]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint2)
+[2020.01.29-00.19.33:153][ 79]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2020.01.29-00.19.40:547][518]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.19.40:559][518]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.19.40:559][518]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.29-00.19.40:560][518]LogPlayLevel: [PlayLevel] Compiling Door_Blueprint before play...
+[2020.01.29-00.19.40:820][518]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.01.29-00.19.40:825][518]LogPlayLevel: PlayLevel: Blueprint regeneration took 266 ms (1 blueprints)
+[2020.01.29-00.19.40:825][518]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:19:40 AM)
+[2020.01.29-00.19.40:827][518]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.19.40:921][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094169s)
+[2020.01.29-00.19.40:922][518]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.19.40:922][518]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2020.01.29-00.19.40:923][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.095565s)
+[2020.01.29-00.19.40:959][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.01.29-00.19.40:960][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.19.40:960][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.19.40:960][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.19.40:960][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.19.40:960][518]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.19.40:960][518]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.19.40:960][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.19.40:960][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.19.40:961][518]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.19.40:961][518]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.19.40:971][518]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.19.40:972][518]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.19.40:972][518]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.19.40:972][518]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.19.40:972][518]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.19.40:972][518]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.19.40:972][518]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.19.40:972][518]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.19.40:972][518]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.19.41:019][518]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.19.41:021][518]LogInit: FAudioDevice initialized.
+[2020.01.29-00.19.41:028][518]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.19.41:031][518]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.19.41
+[2020.01.29-00.19.41:031][518]LogWorld: Bringing up level for play took: 0.002399
+[2020.01.29-00.19.41:032][518]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.01.29-00.19.41:033][518]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.659
+[2020.01.29-00.19.41:034][518]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.20.23:255][ 39]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.20.23:256][ 39]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.20.23:256][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.20.23:256][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.20.23:256][ 39]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.20.23:256][ 39]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.20.23:256][ 39]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.20.23:256][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.20.23:267][ 39]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.20.23:268][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.20.23:272][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.20.23:307][ 39]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.20.23:311][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.20.23:317][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.01.29-00.20.23:367][ 41]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.01.29-00.20.26:949][253]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint2)
+[2020.01.29-00.20.28:925][369]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2020.01.29-00.20.30:774][477]Cmd: DELETE
+[2020.01.29-00.20.30:774][477]Cmd: ACTOR DELETE
+[2020.01.29-00.20.30:778][477]LogEditorActor: Deleted Actor: TriggerBox
+[2020.01.29-00.20.30:810][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.01.29-00.20.30:812][477]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.01.29-00.20.32:773][595]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint2)
+[2020.01.29-00.21.00:379][239]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.21.00:394][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.00:394][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.29-00.21.00:394][239]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:21:00 AM)
+[2020.01.29-00.21.00:394][239]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.21.00:490][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096029s)
+[2020.01.29-00.21.00:492][239]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.21.00:492][239]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2020.01.29-00.21.00:492][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.097638s)
+[2020.01.29-00.21.00:525][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.01.29-00.21.00:528][239]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.21.00:528][239]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.21.00:528][239]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.21.00:528][239]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.21.00:528][239]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.21.00:528][239]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.21.00:528][239]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.21.00:528][239]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.21.00:529][239]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.21.00:529][239]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.21.00:539][239]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.21.00:588][239]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.21.00:590][239]LogInit: FAudioDevice initialized.
+[2020.01.29-00.21.00:595][239]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.21.00:598][239]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.21.00
+[2020.01.29-00.21.00:598][239]LogWorld: Bringing up level for play took: 0.002622
+[2020.01.29-00.21.00:598][239]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.01.29-00.21.00:600][239]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.227
+[2020.01.29-00.21.00:601][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.09:177][747]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.21.09:177][747]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.21.09:177][747]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.09:177][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.21.09:177][747]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.21.09:177][747]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.21.09:177][747]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.21.09:178][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.21.09:204][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.21.09:204][747]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.09:210][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.21.09:245][747]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.21.09:249][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.21.09:255][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.01.29-00.21.09:305][749]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.01.29-00.21.11:277][867]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint2)
+[2020.01.29-00.21.15:494][117]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.21.15:506][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.15:506][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.29-00.21.15:506][117]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:21:15 AM)
+[2020.01.29-00.21.15:506][117]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.21.15:600][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094773s)
+[2020.01.29-00.21.15:602][117]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.21.15:602][117]LogPlayLevel: PIE: World Init took: (0.001370s)
+[2020.01.29-00.21.15:602][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.096348s)
+[2020.01.29-00.21.15:638][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.01.29-00.21.15:641][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.21.15:641][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.21.15:641][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.21.15:641][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.21.15:641][117]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.21.15:641][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.21.15:641][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.21.15:641][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.21.15:642][117]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.21.15:642][117]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.21.15:652][117]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.21.15:699][117]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.21.15:700][117]LogInit: FAudioDevice initialized.
+[2020.01.29-00.21.15:710][117]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.21.15:712][117]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.21.15
+[2020.01.29-00.21.15:713][117]LogWorld: Bringing up level for play took: 0.002345
+[2020.01.29-00.21.15:713][117]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.01.29-00.21.15:715][117]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.659
+[2020.01.29-00.21.15:715][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.24:893][661]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.21.24:893][661]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.21.24:893][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.24:893][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.21.24:893][661]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.21.24:893][661]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.21.24:894][661]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.21.24:894][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.21.24:921][661]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.21.24:921][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.24:926][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.21.24:960][661]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.21.24:964][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.21.24:969][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.01.29-00.21.25:019][663]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.01.29-00.21.26:713][762]LogEditorViewport: Clicking on Actor (LMB): Door_Blueprint_C (Door_Blueprint2)
+[2020.01.29-00.21.31:231][ 30]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-00.21.31:242][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.21.31:242][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.29-00.21.31:242][ 30]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 2:21:31 AM)
+[2020.01.29-00.21.31:242][ 30]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.21.31:339][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096406s)
+[2020.01.29-00.21.31:340][ 30]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-00.21.31:340][ 30]LogPlayLevel: PIE: World Init took: (0.001472s)
+[2020.01.29-00.21.31:340][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.098107s)
+[2020.01.29-00.21.31:381][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.01.29-00.21.31:383][ 30]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-00.21.31:383][ 30]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-00.21.31:383][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-00.21.31:383][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-00.21.31:383][ 30]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-00.21.31:383][ 30]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-00.21.31:383][ 30]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-00.21.31:383][ 30]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-00.21.31:384][ 30]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-00.21.31:384][ 30]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: Channel Order:
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-00.21.31:396][ 30]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-00.21.31:443][ 30]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.01.29-00.21.31:444][ 30]LogInit: FAudioDevice initialized.
+[2020.01.29-00.21.31:450][ 30]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-00.21.31:453][ 30]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-01.21.31
+[2020.01.29-00.21.31:453][ 30]LogWorld: Bringing up level for play took: 0.002437
+[2020.01.29-00.21.31:453][ 30]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.01.29-00.21.31:455][ 30]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.082
+[2020.01.29-00.21.31:455][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.22.08:175][228]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.22.08:176][228]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.22.08:176][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.22.08:176][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.22.08:176][228]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-00.22.08:177][228]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.22.08:177][228]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-00.22.08:177][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.22.08:189][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-00.22.08:189][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-00.22.08:194][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-00.22.08:226][228]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-00.22.08:230][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-00.22.08:235][228]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.01.29-00.22.08:285][230]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.01.29-00.22.10:884][386]Cmd: TRANSACTION UNDO
+[2020.01.29-00.22.10:884][386]LogEditorTransaction: Undo Move Actors
+[2020.01.29-00.22.11:247][396]Cmd: TRANSACTION UNDO
+[2020.01.29-00.22.11:247][396]LogEditorTransaction: Undo Clicking on Actors
+[2020.01.29-00.22.11:521][396]Cmd: TRANSACTION UNDO
+[2020.01.29-00.22.11:521][396]LogEditorTransaction: Undo Move Actors
+[2020.01.29-00.22.11:954][417]Cmd: TRANSACTION UNDO
+[2020.01.29-00.22.11:954][417]LogEditorTransaction: Undo Clicking on Actors
+[2020.01.29-00.22.12:415][442]Cmd: TRANSACTION UNDO
+[2020.01.29-00.22.12:415][442]LogEditorTransaction: Undo Move Actors
+[2020.01.29-00.22.13:012][477]Cmd: TRANSACTION UNDO
+[2020.01.29-00.22.13:012][477]LogEditorTransaction: Undo Scale Actors
+[2020.01.29-00.24.06:302][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door_Blueprint" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset" SILENT=true
+[2020.01.29-00.24.06:337][147]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door_Blueprint60BF180C4449BBA3A2E01D936F0BE88C.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset'
+[2020.01.29-00.24.06:352][147]AssetCheck: New page: Asset Save: Door_Blueprint
+[2020.01.29-00.24.06:352][147]LogContentValidation: Display: Validating Blueprint /Game/Door_Blueprint.Door_Blueprint
+[2020.01.29-00.24.08:224][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door_Blueprint" FILE="C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset" SILENT=true
+[2020.01.29-00.24.08:245][254]LogSavePackage: Moving 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Saved/Door_Blueprint0C76D11842EFAE38339BD683AAA70E95.tmp' to 'C:/Users/Lara/Desktop/MotorsDeJoc_Prac1/P1/Content/Door_Blueprint.uasset'
+[2020.01.29-00.24.08:257][254]AssetCheck: New page: Asset Save: Door_Blueprint
+[2020.01.29-00.24.08:257][254]LogContentValidation: Display: Validating Blueprint /Game/Door_Blueprint.Door_Blueprint
+[2020.01.29-00.24.09:054][301]BlueprintLog: New page: Compile Door_Blueprint
+[2020.01.29-00.24.09:294][301]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
