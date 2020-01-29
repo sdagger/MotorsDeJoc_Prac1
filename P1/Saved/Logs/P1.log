@@ -661,3 +661,364 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.29-15.38.12:278][ 21]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
 [2020.01.29-15.38.12:399][ 26]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
 [2020.01.29-15.38.12:562][ 33]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x20cf5c9ff70 [can pipeline])
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (50.17.106.84) port 443 (#0))
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.29-15.41.10:643][597]LogHttp: Warning: 0000020C9F15CB80: libcurl info message cache 7 (Closing connection 0)
+[2020.01.29-15.41.10:975][598]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.29-15.42.38:662][ 70]LogSlate: Window 'Message Log' being destroyed
+[2020.01.29-15.42.38:666][ 70]LogSlate: Window 'Message Log' being destroyed
+[2020.01.29-15.43.52:673][506]Cmd: DELETE
+[2020.01.29-15.43.52:674][506]Cmd: ACTOR DELETE
+[2020.01.29-15.43.52:680][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.01.29-15.43.52:707][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.01.29-15.43.52:709][506]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2020.01.29-15.44.03:603][158]Cmd: DELETE
+[2020.01.29-15.44.03:603][158]Cmd: ACTOR DELETE
+[2020.01.29-15.44.03:608][158]LogEditorActor: Deleted Actor: Brush
+[2020.01.29-15.44.03:635][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.01.29-15.44.03:639][158]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2020.01.29-15.44.29:447][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.01.29-15.44.29:453][703]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.29-15.44.29:494][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.01.29-15.44.29:679][703]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMapE49442DA4AAFBDB23A2E0EB6DBB74A3C.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.29-15.44.29:694][703]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.228
+[2020.01.29-15.44.29:704][703]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.29-15.44.29:704][703]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.29-15.45.04:861][811]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x20cf5c9ff70 [can pipeline])
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.216.167.239) port 443 (#1))
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.29-15.45.10:510][150]LogHttp: Warning: 0000020D0A306C00: libcurl info message cache 7 (Closing connection 1)
+[2020.01.29-15.45.10:511][150]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.29-15.45.19:318][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2020.01.29-15.45.20:123][723]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2020.01.29-15.45.40:950][964]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush)
+[2020.01.29-15.46.00:802][153]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-15.46.03:387][304]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2020.01.29-15.46.31:830][  2]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2020.01.29-15.46.55:060][386]Cmd: TRANSACTION UNDO
+[2020.01.29-15.46.55:060][386]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.46.55:063][386]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.29-15.46.55:063][386]LogGeometryMode: Warning: Unable to resolve BoxBrush2_3 Brush in new BSP, see above
+[2020.01.29-15.46.55:063][386]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-15.47.05:955][ 26]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-15.47.34:613][733]LogGeometryMode: Warning: Unable to find BoxBrush Brush(s) in new BSP
+[2020.01.29-15.47.34:613][733]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-15.47.35:425][780]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-15.47.38:361][952]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.01.29-15.47.40:192][ 57]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2020.01.29-15.47.44:781][330]Cmd: TRANSACTION UNDO
+[2020.01.29-15.47.44:781][330]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.47.44:784][330]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.29-15.47.44:784][330]LogGeometryMode: Warning: Unable to resolve BoxBrush2_3 Brush in new BSP, see above
+[2020.01.29-15.47.44:784][330]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-15.47.47:790][502]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-15.48.12:039][944]Cmd: TRANSACTION UNDO
+[2020.01.29-15.48.12:039][944]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.48.12:042][944]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.29-15.48.12:042][944]LogGeometryMode: Warning: Unable to resolve BoxBrush2_3 Brush in new BSP, see above
+[2020.01.29-15.48.12:042][944]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-15.48.13:163][  3]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2020.01.29-15.48.15:918][166]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-15.48.18:634][324]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2020.01.29-15.48.19:562][379]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-15.48.31:031][ 61]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x20cf5c9ff70 [can pipeline])
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: libcurl info message cache 1 (Re-using existing connection! (#2) with host datarouter.ol.epicgames.com)
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (100.24.251.232) port 443 (#2))
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.29-15.49.10:646][411]LogHttp: Warning: 0000020CB79325C0: libcurl info message cache 7 (Closing connection 2)
+[2020.01.29-15.49.10:663][412]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.29-15.49.25:726][315]LogSlate: Window 'Select Path' being destroyed
+[2020.01.29-15.49.25:778][315]LogStaticMesh: Building static mesh mesh0...
+[2020.01.29-15.49.25:782][315]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/mesh0.mesh0
+[2020.01.29-15.49.25:783][315]LogActorFactory: Actor Factory created mesh0
+[2020.01.29-15.49.25:800][315]LogEditor: Error: Actor 'Brush /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush2_3' is marked pending kill and cannot be converted
+[2020.01.29-15.49.25:800][315]LogEditor: Error: Actor 'Brush /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush' is marked pending kill and cannot be converted
+[2020.01.29-15.49.25:800][315]EditorErrors: New page: Actor Reattachment
+[2020.01.29-15.49.25:827][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.01.29-15.49.36:649][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.01.29-15.49.36:691][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.01.29-15.49.36:862][957]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMap17068F2641359D2C20ABCF9BA4757301.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.29-15.49.36:879][957]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.216
+[2020.01.29-15.49.36:889][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh0" FILE="D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/Meshes/mesh0.uasset" SILENT=true
+[2020.01.29-15.49.36:900][957]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/mesh0A9206B03411D1D15005D2382B8F99DA5.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/Meshes/mesh0.uasset'
+[2020.01.29-15.49.36:916][957]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.29-15.49.36:916][957]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.29-15.49.36:916][957]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh0.mesh0
+[2020.01.29-15.49.39:984][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh0)
+[2020.01.29-15.49.48:223][594]LogTexture: Display: Building textures: TX_Bronze_D (AutoDXT, 1024X1024)
+[2020.01.29-15.49.48:223][594]LogTexture: Display: Building textures: TX_Wallpaper_N (BC5, 1024X1024)
+[2020.01.29-15.49.48:223][594]LogTexture: Display: Building textures: TX_Wallpaper_D (AutoDXT, 1024X1024)
+[2020.01.29-15.49.48:223][594]LogTexture: Display: Building textures: TX_fabric_N (BC5, 1024X1024)
+[2020.01.29-15.49.48:223][594]LogMaterial: Display: Missing cached shader map for material M_Wallpaper, compiling. 
+[2020.01.29-15.49.48:268][594]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.01.29-15.49.48:268][594]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2020.01.29-15.49.48:268][594]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.01.29-15.49.48:268][594]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.01.29-15.49.48:268][594]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.01.29-15.49.48:268][594]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.01.29-15.49.59:199][212]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-15.49.59:205][212]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-15.49.59:205][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.29-15.49.59:208][212]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 5:49:59 PM)
+[2020.01.29-15.49.59:209][212]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.01.29-15.49.59:210][212]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.01.29-15.49.59:210][212]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-15.49.59:263][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052666s)
+[2020.01.29-15.49.59:264][212]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-15.49.59:264][212]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2020.01.29-15.49.59:264][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.053891s)
+[2020.01.29-15.49.59:300][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.01.29-15.49.59:308][212]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-15.49.59:308][212]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-15.49.59:308][212]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-15.49.59:308][212]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-15.49.59:308][212]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-15.49.59:308][212]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-15.49.59:308][212]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-15.49.59:308][212]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-15.49.59:308][212]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-15.49.59:308][212]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: Name: Speaker / Headphone (Realtek(R) Audio)
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: Channel Order:
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-15.49.59:314][212]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-15.49.59:341][212]LogAudioMixer: Display: Using Audio Device Speaker / Headphone (Realtek(R) Audio)
+[2020.01.29-15.49.59:343][212]LogInit: FAudioDevice initialized.
+[2020.01.29-15.49.59:357][212]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-15.49.59:360][212]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-16.49.59
+[2020.01.29-15.49.59:360][212]LogWorld: Bringing up level for play took: 0.001571
+[2020.01.29-15.49.59:360][212]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.01.29-15.49.59:367][212]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.01.29-15.49.59:368][212]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.396
+[2020.01.29-15.49.59:368][212]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-15.50.24:285][705]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-15.50.24:285][705]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-15.50.24:285][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-15.50.24:286][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-15.50.24:286][705]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-15.50.24:286][705]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-15.50.24:286][705]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-15.50.24:286][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-15.50.24:292][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-15.50.24:292][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-15.50.24:295][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-15.50.24:318][705]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-15.50.24:322][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-15.50.24:326][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.01.29-15.50.24:385][708]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.01.29-15.50.29:059][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.01.29-15.50.29:104][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.01.29-15.50.29:267][986]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMapAD426F3A47C44C84B1BCCB8EDD577CAB.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.29-15.50.29:283][986]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.207
+[2020.01.29-15.50.29:295][986]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.29-15.50.29:295][986]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.29-15.52.18:001][260]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.29-15.52.31:478][ 63]Cmd: TRANSACTION UNDO
+[2020.01.29-15.52.31:478][ 63]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.52.32:981][144]Cmd: TRANSACTION UNDO
+[2020.01.29-15.52.32:981][144]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x20cf5c9ff70 [can pipeline])
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.209.114.12) port 443 (#3))
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: 0000020CCA9C60C0: libcurl info message cache 7 (Closing connection 3)
+[2020.01.29-15.53.10:519][384]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.29-15.53.58:039][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.01.29-15.53.58:080][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.01.29-15.53.58:260][221]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMapAECBF93640B7C96896747497DC8718CC.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.29-15.53.58:275][221]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.223
+[2020.01.29-15.53.58:284][221]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.29-15.53.58:284][221]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.29-15.54.08:767][849]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.29-15.54.10:666][961]Cmd: TRANSACTION UNDO
+[2020.01.29-15.54.10:666][961]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.54.11:660][ 14]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2020.01.29-15.54.13:100][ 99]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2020.01.29-15.54.13:929][148]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-15.54.54:352][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.01.29-15.54.54:394][562]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.01.29-15.54.54:564][562]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMap9B4E1224457EF4A65E1FC8AB691BB4B5.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.29-15.54.54:581][562]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.215
+[2020.01.29-15.54.54:591][562]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.29-15.54.54:591][562]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.29-15.55.34:728][964]Cmd: TRANSACTION UNDO
+[2020.01.29-15.55.34:728][964]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.55.36:635][ 71]LogEditorViewport: Clicking Background
+[2020.01.29-15.56.19:717][643]LogSlate: Window 'Select Path' being destroyed
+[2020.01.29-15.56.19:763][643]LogStaticMesh: Building static mesh Curved_Stair_Brush_StaticMesh...
+[2020.01.29-15.56.19:774][643]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Curved_Stair_Brush_StaticMesh.Curved_Stair_Brush_StaticMesh
+[2020.01.29-15.56.19:777][643]LogActorFactory: Actor Factory created Curved_Stair_Brush_StaticMesh
+[2020.01.29-15.56.19:793][643]LogEditor: Error: Actor 'Brush /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CurvedStairBrush' is marked pending kill and cannot be converted
+[2020.01.29-15.56.19:793][643]LogEditor: Error: Actor 'Brush /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush' is marked pending kill and cannot be converted
+[2020.01.29-15.56.19:793][643]EditorErrors: New page: Actor Reattachment
+[2020.01.29-15.56.19:820][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.01.29-15.56.38:049][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh1" FILE="D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/Meshes/mesh1.uasset" SILENT=true
+[2020.01.29-15.56.38:061][729]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/mesh17067E5E44F1617FD91F68E881B06F641.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/Meshes/mesh1.uasset'
+[2020.01.29-15.56.38:213][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.01.29-15.56.38:249][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.01.29-15.56.38:273][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.01.29-15.56.38:315][729]AssetCheck: New page: Asset Save: mesh1
+[2020.01.29-15.56.38:315][729]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/mesh1.mesh1
+[2020.01.29-15.56.41:423][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.01.29-15.56.41:466][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.01.29-15.56.41:631][914]LogSavePackage: Moving 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Saved/ThirdPersonExampleMapA1B0BAC74673FE23D894B78C4376E0C3.tmp' to 'D:/MOTORS DE JOC_PRAC1/MotorsDeJoc_Prac1/P1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.01.29-15.56.41:646][914]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.208
+[2020.01.29-15.56.41:655][914]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.01.29-15.56.41:655][914]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.01.29-15.56.59:503][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.01.29-15.57.12:645][769]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.29-15.57.22:747][371]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2020.01.29-15.57.23:786][432]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2020.01.29-15.58.08:757][123]Cmd: TRANSACTION UNDO
+[2020.01.29-15.58.08:758][123]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.58.08:759][123]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.29-15.58.08:759][123]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2020.01.29-15.58.08:759][123]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-15.58.11:823][298]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2020.01.29-15.58.16:445][573]Cmd: TRANSACTION UNDO
+[2020.01.29-15.58.16:445][573]LogEditorTransaction: Undo Move Actors
+[2020.01.29-15.58.16:447][573]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.29-15.58.16:448][573]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2020.01.29-15.58.16:448][573]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-15.58.19:218][731]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2020.01.29-15.58.19:762][763]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2020.01.29-15.58.20:573][811]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2020.01.29-15.58.38:856][902]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush)
+[2020.01.29-15.58.40:484][999]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x20cf5c9ff70 [can pipeline])
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.55.177.42) port 443 (#5))
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.01.29-15.59.10:498][461]LogHttp: Warning: 0000020CA8D75E40: libcurl info message cache 7 (Closing connection 5)
+[2020.01.29-15.59.10:515][462]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA727EE-4DD3-EDA4-2187-54BA97E6ADBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=57b75e3c47237f2f78c2b0b36a1de745%7Cdc6cdfe94d5f40fa9d057b6ef21f733c%7Cfe7a6e06-939d-4e5f-97c8-e9f62f453553&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.01.29-15.59.22:637][182]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.29-15.59.22:643][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-15.59.22:643][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.29-15.59.22:643][182]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 29, 2020, 5:59:22 PM)
+[2020.01.29-15.59.22:643][182]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-15.59.22:696][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052602s)
+[2020.01.29-15.59.22:697][182]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.01.29-15.59.22:697][182]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2020.01.29-15.59.22:697][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.053813s)
+[2020.01.29-15.59.22:765][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.01.29-15.59.22:766][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.29-15.59.22:766][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.29-15.59.22:766][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.29-15.59.22:766][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.29-15.59.22:766][182]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.29-15.59.22:766][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.29-15.59.22:766][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.29-15.59.22:767][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.29-15.59.22:767][182]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.29-15.59.22:767][182]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: Name: Speaker / Headphone (Realtek(R) Audio)
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: Is Default: Yes
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: Channel Order:
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.29-15.59.22:773][182]LogAudioMixer: Display: 1: FrontRight
+[2020.01.29-15.59.22:801][182]LogAudioMixer: Display: Using Audio Device Speaker / Headphone (Realtek(R) Audio)
+[2020.01.29-15.59.22:802][182]LogInit: FAudioDevice initialized.
+[2020.01.29-15.59.22:808][182]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.01.29-15.59.22:810][182]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.01.29-16.59.22
+[2020.01.29-15.59.22:811][182]LogWorld: Bringing up level for play took: 0.001620
+[2020.01.29-15.59.22:811][182]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.01.29-15.59.22:813][182]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.16
+[2020.01.29-15.59.22:813][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-15.59.41:785][319]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-15.59.41:785][319]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-15.59.41:785][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-15.59.41:785][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-15.59.41:785][319]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.01.29-15.59.41:785][319]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-15.59.41:785][319]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.29-15.59.41:785][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-15.59.41:795][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.29-15.59.41:795][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.01.29-15.59.41:798][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.29-15.59.41:821][319]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.29-15.59.41:826][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.29-15.59.41:829][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.01.29-15.59.41:887][322]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.01.29-16.00.10:316][ 20]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.01.29-16.00.17:433][439]Cmd: EDCALLBACK SURFPROPS
+[2020.01.29-16.00.20:832][640]Cmd: EDCALLBACK SURFPROPS
+[2020.01.29-16.00.39:559][754]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2020.01.29-16.00.40:057][782]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2020.01.29-16.00.47:461][220]Cmd: TRANSACTION UNDO
+[2020.01.29-16.00.47:461][220]LogEditorTransaction: Undo Move Actors
+[2020.01.29-16.00.47:464][220]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2020.01.29-16.00.47:465][220]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2020.01.29-16.00.47:465][220]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-16.01.28:611][525]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2020.01.29-16.01.44:098][449]Cmd: TRANSACTION UNDO
+[2020.01.29-16.01.44:098][449]LogEditorTransaction: Undo Move Actors
+[2020.01.29-16.01.44:102][449]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2020.01.29-16.01.44:102][449]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2020.01.29-16.01.44:102][449]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-16.01.54:002][ 33]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-16.01.55:127][ 97]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush3)
+[2020.01.29-16.01.55:958][146]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush3)
+[2020.01.29-16.02.05:335][705]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-16.02.15:490][307]LogGeomTools: Triangulation of poly failed.
+[2020.01.29-16.02.16:171][347]Cmd: TRANSACTION UNDO
+[2020.01.29-16.02.16:171][347]LogEditorTransaction: Undo Move Actors
+[2020.01.29-16.02.16:175][347]LogGeometryMode: Warning: Unable to find 1 Vertex(s) in new BSP
+[2020.01.29-16.02.16:175][347]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2020.01.29-16.02.16:175][347]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-16.02.18:047][452]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush3)
+[2020.01.29-16.02.23:144][756]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-16.02.23:817][793]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush3)
+[2020.01.29-16.02.26:641][961]Cmd: TRANSACTION UNDO
+[2020.01.29-16.02.26:642][961]LogEditorTransaction: Undo Move Actors
+[2020.01.29-16.02.26:645][961]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2020.01.29-16.02.26:645][961]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2020.01.29-16.02.26:645][961]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2020.01.29-16.02.27:087][982]Cmd: TRANSACTION UNDO
+[2020.01.29-16.02.27:087][982]LogEditorTransaction: Undo Modifier [Edit]
+[2020.01.29-16.02.27:649][ 13]Cmd: TRANSACTION UNDO
+[2020.01.29-16.02.27:649][ 13]LogEditorTransaction: Undo Select Brush Surface
+[2020.01.29-16.02.29:305][108]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush3)
+[2020.01.29-16.02.45:673][ 83]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.01.29-16.02.46:800][149]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2020.01.29-16.02.48:421][245]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2020.01.29-16.02.58:312][832]Cmd: TRANSACTION UNDO
+[2020.01.29-16.02.58:312][832]LogEditorTransaction: Undo Move Actors
